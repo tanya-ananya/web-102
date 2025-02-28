@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://www.canva.com/design/DAGgXUyyK2E/6qXGtAgVwr7-IZ_tLQJyMQ/edit?utm_content=DAGgXUyyK2E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://www.canva.com/design/DAGgXch7PE0/14RP0-I6D2UsqVQzWzgxBg/edit?utm_content=DAGgXch7PE0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
