@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: rgb(41, 41, 41);
+  background-color: #e0f7fa;
+  display: flex;
+  justify-content: center;
+}
+
+ body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.gsu-logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.events-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 250px;
+}
+
+.place-image {
+  width: 100%;
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.events-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #d32f2f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.events-button:hover {
+  background-color: #b71c1c;
+}
