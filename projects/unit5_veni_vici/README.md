@@ -1,4 +1,4 @@
-# Web Development Project 4 - *Veni Cici!*
+# Web Development Project 4 - *Veni Vici!*
 
 Submitted by: **Taaruni Ananya**
 
@@ -44,7 +44,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<a src='https://imgur.com/a/hU9BYfi' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/a/hU9BYfi)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Imgur
