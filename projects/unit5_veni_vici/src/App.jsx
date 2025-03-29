@@ -11,10 +11,10 @@ function App() {
   const fetchCatData = async () => {
     try {
       const response = await fetch(
-      "https://api.thecatapi.com/v1/breeds?api_key=live_b0Sf8JAyB9aZ6WpBkwVQqJbuOAK8CILXSNCiGZaVHIFd5WajnTUi82wme1GyHBaw",
+      "https://api.thecatapi.com/v1/breeds?api_key=(removed for security)",
       {
         headers: {
-          "x-api-key": "live_b0Sf8JAyB9aZ6WpBkwVQqJbuOAK8CILXSNCiGZaVHIFd5WajnTUi82wme1GyHBaw"
+          "x-api-key": "(removed for security)"
         },
       });
 
