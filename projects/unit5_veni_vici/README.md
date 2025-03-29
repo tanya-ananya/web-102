@@ -46,6 +46,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/a/hU9BYfi)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Link in case it doesn't work: https://imgur.com/a/hU9BYfi
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Imgur
 <!-- Recommended tools:
