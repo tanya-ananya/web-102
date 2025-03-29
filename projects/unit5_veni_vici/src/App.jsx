@@ -23,7 +23,7 @@ function App() {
 
       while (true) {
         const randIndex = Math.floor(Math.random() * data.length);
-        const { reference_image_id, name, origin, lifespan, weight} = data[randIndex];
+        const { image_id, name, origin, lifespan, weight} = data[randIndex];
 
         const attributes = [name, origin, lifespan, weight.imperial]
         if (attributes.some((attribute) => banList.includes(attribute))) {
@@ -31,10 +31,10 @@ function App() {
         }
       
       const image = new Image();
-      image.src = 'https://cdn2.thecatapi.com/images/${reference_image_id}.jpg'
+      image.src = 'https://cdn2.thecatapi.com/images/$image_id}.jpg'
       image.onload = () => {
         const catInformation = {
-          reference_image_id,
+          image_id,
           name,
           origin,
           lifespan,
@@ -115,7 +115,7 @@ function App() {
                 </button>
               </div>
 
-              <img src={`https://cdn2.thecatapi.com/images/${catData.reference_image_id}.jpg`} alt=""/>
+              <img src={`https://cdn2.thecatapi.com/images/${catData.rimage_id}.jpg`} alt=""/>
             </div>
           )}
           <button type="discover" className="discover" onClick={() => {
