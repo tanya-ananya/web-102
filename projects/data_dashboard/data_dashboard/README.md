@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 - [x] Multiple filters can be applied simultaneously
 - [x] Filters use different input types
-  - e.g., as a text input, a dropdown or radio selection, and/or a slider
+  - e.g., as a text input, a **dropdown** or radio selection, and/or a slider
 - [ ] The user can enter specific bounds for filter values
 
 The following **additional** features are implemented:
