@@ -1,4 +1,4 @@
-# Web Development Project 5 - *Taaruni Ananya*
+# Web Development Project 5 - *OpenLibrary Book Dashboard*
 
 Submitted by: **Your Name Here**
 
