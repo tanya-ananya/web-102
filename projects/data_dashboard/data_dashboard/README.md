@@ -36,7 +36,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/a/Yq9pGou)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/a/Yq9pGou)](https://submissions.us-east-1.linodeobjects.com/web102/2lZcobEQ.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ***Link in case it doesn't work***: https://imgur.com/a/Yq9pGou
 
