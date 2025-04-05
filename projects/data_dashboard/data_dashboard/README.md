@@ -32,10 +32,6 @@ The following **optional** features are implemented:
   - e.g., as a text input, a **dropdown** or radio selection, and/or a slider
 - [ ] The user can enter specific bounds for filter values
 
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
