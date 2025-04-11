@@ -1,6 +1,6 @@
 # Web Development Project 6 - *OpenLibrary Book Dashboard*
 
-Submitted by: **Your Name Here**
+Submitted by: **Taaruni Ananya**
 
 This web app: **allows the user to search for their book/article of choice to get information such as total books with that title, avergae publish year, number of and unique subjects, along with a table of title, author, and publication year**
 
