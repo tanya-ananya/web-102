@@ -46,6 +46,7 @@ GIF created with Imgur
 ## Notes
 
 Describe any challenges encountered while building the app.
+One of my biggest challenges was getting the graphs to display properly. The data part was easy but I struggled to show the bar graphs. It was also a challenge to align the graphs how I wanted. After some trial and error, I decided to go with 
 
 ## License
 
