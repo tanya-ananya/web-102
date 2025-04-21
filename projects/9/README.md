@@ -51,8 +51,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/a/m98cTR7)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Link: https://imgur.com/a/m98cTR7
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Imgur 
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
