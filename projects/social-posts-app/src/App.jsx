@@ -27,7 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home posts={posts} onCreatePost={handleCreatePost} />} />
           <Route path="/posts/:id" element={<PostPage />} />
-          <Route path="/PostPage" element={<PostPage />} /> {/* Keep this route */}
+          <Route path="/PostPage" element={<PostPage />} />
         </Routes>
       </div>
     </Router>

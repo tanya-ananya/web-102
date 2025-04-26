@@ -10,7 +10,6 @@ function PostPage() {
   const navigate = useNavigate();
   const [post, setPost] = useState(null);
 
-  // --------------------------
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -19,13 +18,7 @@ function PostPage() {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('posts', JSON.stringify(posts));
-  }, [posts]);
-
-  // --------------------------
-
-  useEffect(() => {
-    if (id) { // Only try to fetch a post if an ID is present
+    if (id) {
         const savedPosts = JSON.parse(localStorage.getItem('posts')) || [];
         const foundPost = savedPosts.find((p) => p.id === id);
         if (foundPost) {
@@ -53,6 +46,7 @@ function PostPage() {
   };
 
   const handleCreatePost = (postData) => {
+    const saved = JSON.parse(localStorage.getItem('posts')) || [];
     const newPost = {
       ...postData,
       id: Date.now().toString(),
@@ -60,11 +54,13 @@ function PostPage() {
       upvotes: 0,
       comments: [],
     };
-    setPosts([newPost, ...posts]);
-    navigate(`/posts/${newPost.id}`); // Navigate to the new post's detail page
+    const updatedPosts = [newPost, ...saved];
+    localStorage.setItem('posts', JSON.stringify(updatedPosts));
+    setPosts(updatedPosts);
+    navigate(`/posts/${newPost.id}`);
   };
 
-  if (id && !post) { // Render loading only when id exists and post is not found.
+  if (id && !post) {
     return <p>Loading...</p>;
   }
 
@@ -78,7 +74,7 @@ function PostPage() {
             onDeletePost={handleDeletePost}
           />
         ) : (
-          <p>Post not found</p> //Or some error message.  Handled by the if (id && !post)
+          <p>Post not found</p>
         )
       ) : (
         <PostForm onSubmit={handleCreatePost} submitLabel="Create Post" />

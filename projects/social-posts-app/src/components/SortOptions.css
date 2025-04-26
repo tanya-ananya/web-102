@@ -1,26 +1,26 @@
 .sort-options {
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* space-x-2 */
+    gap: 0.5rem;
   }
   
   .sort-label {
-    color: #4b5563; /* text-gray-600 */
+    color: #4b5563;
   }
   
   .sort-button {
-    padding: 0.25rem 0.75rem; /* px-3 py-1 */
-    border-radius: 9999px; /* rounded-full */
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
     font-weight: 500;
     background-color: white;
-    color: #374151; /* text-gray-700 */
+    color: #374151;
     border: 1px solid #d1d5db;
     cursor: pointer;
     transition: background-color 0.2s, color 0.2s;
   }
   
   .sort-button.active {
-    background-color: #14b8a6; /* bg-teal-500 */
+    background-color: #14b8a6;
     color: white;
     border: none;
   }
