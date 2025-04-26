@@ -1,4 +1,4 @@
-# Web Development Final Project - *Name of App Here*
+# Web Development Final Project - *BookBubble*
 
 Submitted by: **Your Name Here**
 
