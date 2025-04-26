@@ -1,0 +1,9 @@
+.home-container {
+    max-width: 48rem; /* max-w-3xl */
+    margin: 0 auto; /* mx-auto */
+    padding: 1rem; /* p-4 */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* space-y-6 */
+  }
+  

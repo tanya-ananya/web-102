@@ -1,0 +1,27 @@
+.post-card {
+    border: 1px solid #e5e7eb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+  }
+  
+  .post-card:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .post-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .post-date {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .post-upvotes {
+    font-size: 0.875rem;
+    color: #374151;
+  }
+  

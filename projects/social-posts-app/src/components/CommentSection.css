@@ -1,0 +1,35 @@
+.comment-section form {
+    margin-bottom: 1rem;
+  }
+  
+  .comment-section input {
+    border: 1px solid #b1cbff;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .comment-section button {
+    background-color: #033585;
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .comment-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .comment-section li {
+    background-color: #cedeff;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+  }
+  
+  .comment-section li:first-child {
+    margin-top: 0;
+  }
+  

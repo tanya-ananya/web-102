@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #0a003f;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(238, 238, 238);
+  }
+  
+  .navbar-search {
+    border: 1px solid #d1d5db;
+    border-radius: 9999px;
+    padding: 0.25rem 1rem;
+    outline: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
