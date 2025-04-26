@@ -1,6 +1,6 @@
 # Web Development Final Project - *BookBubble*
 
-Submitted by: **Your Name Here**
+Submitted by: **Taaruni Ananya**
 
 This web app: **insert description**
 
